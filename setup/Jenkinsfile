@@ -23,6 +23,7 @@ pipeline {
     NUSCENES = "/data/sets/nuscenes"
     NUIMAGES = "/data/sets/nuimages"
     PYTHONPATH = "${env.WORKSPACE}/python-sdk"
+    PYTHONUNBUFFERED = "1"
   }
 
   stages {
